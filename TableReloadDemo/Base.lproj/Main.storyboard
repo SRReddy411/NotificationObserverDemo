@@ -24,12 +24,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9b1-SV-nNs">
+                                <rect key="frame" x="141" y="287.5" width="92" height="92"/>
+                                <state key="normal" image="play"/>
+                                <connections>
+                                    <action selector="playAction_Btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8jZ-ck-mWo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.70588235290000001" green="0.64705882349999999" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fdE-V4-UxJ" secondAttribute="trailing" constant="16" id="Lo8-Q5-Wed"/>
                             <constraint firstItem="fdE-V4-UxJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Plp-bp-ReS"/>
+                            <constraint firstItem="9b1-SV-nNs" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QG7-2Q-G78"/>
                             <constraint firstItem="fdE-V4-UxJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="YrK-rW-Qly"/>
+                            <constraint firstItem="9b1-SV-nNs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Z7R-qk-5h3"/>
                             <constraint firstItem="fdE-V4-UxJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="gl9-L3-H7J"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -42,6 +51,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="play_Btn" destination="9b1-SV-nNs" id="BeW-vA-djo"/>
                         <outlet property="text_lbl" destination="fdE-V4-UxJ" id="g5q-c3-GM9"/>
                     </connections>
                 </viewController>
@@ -107,4 +117,7 @@
             <point key="canvasLocation" x="117.59999999999999" y="-579.76011994002999"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="play" width="92" height="92"/>
+    </resources>
 </document>

@@ -17,14 +17,15 @@ class SecondViewController: UIViewController,UITextFieldDelegate {
         
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(SecondViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
+     
 
     }
-    
+    //keyboard hidding
     @objc func dismissKeyboard( )   {
          view.endEditing(true)
         self.navigationController?.popViewController(animated: true)
     }
-    
+    //textfiled delagates
     func textFieldDidEndEditing(_ textField: UITextField) {
         let imageDataDict:[String: Any] = ["TEXT": dataTF.text ?? "nil"]
         
