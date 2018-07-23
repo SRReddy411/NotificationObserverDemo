@@ -17,7 +17,6 @@ class SecondViewController: UIViewController,UITextFieldDelegate {
         
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(SecondViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
-    
 
     }
     

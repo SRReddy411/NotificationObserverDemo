@@ -12,7 +12,6 @@
 		FD78CFA72105D8C4000C1484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD78CFA52105D8C4000C1484 /* Main.storyboard */; };
 		FD78CFA92105D8C5000C1484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD78CFA82105D8C5000C1484 /* Assets.xcassets */; };
 		FD78CFAC2105D8C5000C1484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD78CFAA2105D8C5000C1484 /* LaunchScreen.storyboard */; };
-		FD78CFB42105D914000C1484 /* service.json in Resources */ = {isa = PBXBuildFile; fileRef = FD78CFB32105D914000C1484 /* service.json */; };
 		FD78CFB62105DBC7000C1484 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD78CFB52105DBC7000C1484 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +23,6 @@
 		FD78CFA82105D8C5000C1484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD78CFAB2105D8C5000C1484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD78CFAD2105D8C5000C1484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD78CFB32105D914000C1484 /* service.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = service.json; sourceTree = "<group>"; };
 		FD78CFB52105DBC7000C1484 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +56,6 @@
 		FD78CFA02105D8C4000C1484 /* TableReloadDemo */ = {
 			isa = PBXGroup;
 			children = (
-				FD78CFB32105D914000C1484 /* service.json */,
 				FD78CFA12105D8C4000C1484 /* AppDelegate.swift */,
 				FD78CFA32105D8C4000C1484 /* ViewController.swift */,
 				FD78CFB52105DBC7000C1484 /* SecondViewController.swift */,
@@ -129,7 +126,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD78CFAC2105D8C5000C1484 /* LaunchScreen.storyboard in Resources */,
-				FD78CFB42105D914000C1484 /* service.json in Resources */,
 				FD78CFA92105D8C5000C1484 /* Assets.xcassets in Resources */,
 				FD78CFA72105D8C4000C1484 /* Main.storyboard in Resources */,
 			);
